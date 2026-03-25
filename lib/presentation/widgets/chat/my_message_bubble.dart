@@ -9,7 +9,7 @@ class MyMessageBubble extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Column(
       children: [
-        Text('Mi mensaje')      
+        Text('Incididunt aliquip labore ipsum velit do proident esse ipsum.')      
         ],
     );
   }
