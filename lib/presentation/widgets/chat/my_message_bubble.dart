@@ -7,11 +7,13 @@ class MyMessageBubble extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       children: [
-        Padding(
-          padding: EdgeInsets.all(8.0),
-          child: Text('Incididunt aliquip labore ipsum velit do proident esse ipsum.'),
+        Container(
+          child: Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Text('Incididunt aliquip labore ipsum velit do proident esse ipsum.'),
+          ),
         )      
         ],
     );
