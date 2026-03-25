@@ -8,13 +8,13 @@ class HerMessageBubble extends StatelessWidget {
     final colors = Theme.of(context).colorScheme;
 
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.end,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Container(
           //height: 10,
           width: 300,
           decoration: BoxDecoration(
-            color: colors.primary,
+            color: colors.secondary,
             borderRadius: BorderRadius.circular(20),
             ),
           child: Padding(
