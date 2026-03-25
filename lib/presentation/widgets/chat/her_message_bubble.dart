@@ -22,7 +22,7 @@ class HerMessageBubble extends StatelessWidget {
               horizontal: 20.0,
               vertical: 10.0
             ),
-            child: Text('Incididunt aliquip labore ipsum velit do proident esse ipsum.',
+            child: Text('Adipisicing minim elit commodo nulla exercitation veniam.',
             style: TextStyle(color: Colors.white),
             ),
           ),
