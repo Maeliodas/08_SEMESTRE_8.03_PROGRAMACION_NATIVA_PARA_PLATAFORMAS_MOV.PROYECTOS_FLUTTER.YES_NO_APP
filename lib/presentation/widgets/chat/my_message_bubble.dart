@@ -18,9 +18,12 @@ class MyMessageBubble extends StatelessWidget {
             ),
           child: Padding(
             padding: EdgeInsets.all(8.0),
-            child: Text('Incididunt aliquip labore ipsum velit do proident esse ipsum.'),
+            child: Text('Incididunt aliquip labore ipsum velit do proident esse ipsum.',
+            style: TextStyle(color: Colors.white),
+            ),
           ),
-        )      
+        ),
+        const SizedBox(height: 10,),
         ],
     );
   }
