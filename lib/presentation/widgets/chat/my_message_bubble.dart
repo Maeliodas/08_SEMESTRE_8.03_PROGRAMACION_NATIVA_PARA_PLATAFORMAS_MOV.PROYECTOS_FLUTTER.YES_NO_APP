@@ -10,8 +10,8 @@ class MyMessageBubble extends StatelessWidget {
     return Column(
       children: [
         Container(
-          /*height: 10,
-          width: 10,*/
+          //height: 10,
+          width: 300,
           decoration: BoxDecoration(
             color: colors.primary,
             borderRadius: BorderRadius.circular(20),
