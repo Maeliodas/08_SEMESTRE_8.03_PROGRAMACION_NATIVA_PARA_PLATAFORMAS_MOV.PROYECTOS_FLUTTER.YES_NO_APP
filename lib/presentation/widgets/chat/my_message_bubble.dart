@@ -17,7 +17,10 @@ class MyMessageBubble extends StatelessWidget {
             borderRadius: BorderRadius.circular(20),
             ),
           child: Padding(
-            padding: EdgeInsets.all(8.0),
+            padding: EdgeInsets.symmetric(
+              horizontal: 20.0,
+              vertical: 10.0
+            ),
             child: Text('Incididunt aliquip labore ipsum velit do proident esse ipsum.',
             style: TextStyle(color: Colors.white),
             ),
