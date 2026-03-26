@@ -28,7 +28,17 @@ class HerMessageBubble extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 10,),
+
+        _ImageBubble(),
         ],
     );
+  }
+}
+
+class _ImageBubble extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    Image.network('https://yesno.wtf/assets/yes/0-c44a7789d54cbdcad867fb7845ff03ae.gif'); //https://yesno.wtf/api
   }
 }
