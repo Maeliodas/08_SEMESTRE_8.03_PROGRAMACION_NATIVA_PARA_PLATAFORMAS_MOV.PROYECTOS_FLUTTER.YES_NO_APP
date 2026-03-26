@@ -5,7 +5,7 @@ class MessageFieldBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text('Mensaje0');
+    return TextFormField();
 
     
   }
