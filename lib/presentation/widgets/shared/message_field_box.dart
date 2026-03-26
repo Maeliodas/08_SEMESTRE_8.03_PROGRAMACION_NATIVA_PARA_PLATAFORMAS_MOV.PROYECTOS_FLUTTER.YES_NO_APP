@@ -5,8 +5,11 @@ class MessageFieldBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextFormField();
-
-    
+    return TextFormField(
+      decoration: InputDecoration(
+        filled: true,
+        suffixIcon: const Icon(Icons.send_outlined),
+      ),
+    );    
   }
 }
