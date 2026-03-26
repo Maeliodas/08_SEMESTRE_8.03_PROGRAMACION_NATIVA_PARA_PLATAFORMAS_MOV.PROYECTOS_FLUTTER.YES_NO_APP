@@ -40,7 +40,11 @@ class _ImageBubble extends StatelessWidget {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Image.network(
-      "https://yesno.wtf/assets/yes/0-c44a7789d54cbdcad867fb7845ff03ae.gif", width: size.width * 0.7,);
+      "https://yesno.wtf/assets/yes/0-c44a7789d54cbdcad867fb7845ff03ae.gif", 
+      width: size.width * 0.7,
+      height: 150,
+      fit: BoxFit.cover,
+      );
     
   }
 }
