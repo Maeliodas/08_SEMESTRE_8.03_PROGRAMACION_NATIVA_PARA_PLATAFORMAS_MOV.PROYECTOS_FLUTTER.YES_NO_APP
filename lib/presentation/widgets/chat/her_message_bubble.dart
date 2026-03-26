@@ -38,6 +38,9 @@ class HerMessageBubble extends StatelessWidget {
 class _ImageBubble extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Image.network('https://yesno.wtf/assets/yes/0-c44a7789d54cbdcad867fb7845ff03ae.gif'); //https://yesno.wtf/api
+    final size = MediaQuery.of(context).size;
+    return Image.network(
+      "https://yesno.wtf/assets/yes/0-c44a7789d54cbdcad867fb7845ff03ae.gif", width: size.width * 0.7,);
+    
   }
 }
