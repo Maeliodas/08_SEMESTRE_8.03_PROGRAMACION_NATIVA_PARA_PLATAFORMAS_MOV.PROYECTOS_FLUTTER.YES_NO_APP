@@ -27,9 +27,29 @@ class HerMessageBubble extends StatelessWidget {
             ),
           ),
         ),
-        const SizedBox(height: 10,),
+        const SizedBox(height: 5,),
 
         _ImageBubble(),
+
+        const SizedBox(height: 10,),
+
+         Container(
+          //height: 10,
+          width: 300,
+          decoration: BoxDecoration(
+            color: colors.secondary,
+            borderRadius: BorderRadius.circular(20),
+            ),
+          child: Padding(
+            padding: EdgeInsets.symmetric(
+              horizontal: 20.0,
+              vertical: 10.0
+            ),
+            child: Text('Adipisicing minim elit commodo nulla exercitation veniam.',
+            style: TextStyle(color: Colors.white),
+            ),
+          ),
+        ),
         ],
     );
   }
